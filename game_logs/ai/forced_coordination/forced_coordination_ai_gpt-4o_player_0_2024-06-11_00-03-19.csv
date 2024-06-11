@@ -1,0 +1,16 @@
+,action_history,player_held_object,other_player_held_object,o0_distance_from_Alice,o1_distance_from_Alice,p0_distance_from_Alice,d0_distance_from_Alice,c0_distance_from_Alice,c1_distance_from_Alice,s0_distance_from_Alice,s1_distance_from_Alice,s2_distance_from_Alice,c0_num_onions,c0_cooker_status,c0_soup_in_cooker_status,c1_num_onions,c1_cooker_status,c1_soup_in_cooker_status,s0 object,s1 object,s2 object,available_actions,full_state_description,selected_action,llm_response
+0,"['wait.', 'wait.']",nothing,nothing,infinite,infinite,infinite,2,0,0,0,1,2,0,off,not cooking,0,off,not cooking,empty,empty,empty,wait. | move away.,"action history: .
+<Inventory>: I am holding nothing. <My location information:> o0 is inaccessible. o1 is inaccessible. p0 is inaccessible. d0 is 2 units away. c0 is 0 units away. c1 is 0 units away. s0 is 0 units away. s1 is 1 units away. s2 is 2 units away. 
+<Environment Details>: c0 contains 0 out of 3 onions. c0 is off. soup in c0 is not cooking. c1 contains 0 out of 3 onions. c1 is off. soup in c1 is not cooking. s0 is empty. s1 is empty. s2 is empty. Closest empty kitchen counter k4 is 1 units away. 
+Available Actions:
+[wait., move away.]",wait.,
+1,"['wait.', 'wait.']",nothing,nothing,infinite,infinite,infinite,2,0,0,0,1,2,0,off,not cooking,0,off,not cooking,empty,empty,empty,wait. | move away.,"action history: wait..
+<Inventory>: I am holding nothing. <My location information:> o0 is inaccessible. o1 is inaccessible. p0 is inaccessible. d0 is 2 units away. c0 is 0 units away. c1 is 0 units away. s0 is 0 units away. s1 is 1 units away. s2 is 2 units away. 
+<Environment Details>: c0 contains 0 out of 3 onions. c0 is off. soup in c0 is not cooking. c1 contains 0 out of 3 onions. c1 is off. soup in c1 is not cooking. s0 is empty. s1 is empty. s2 is empty. Closest empty kitchen counter k4 is 1 units away. 
+Available Actions:
+[wait., move away.]",wait.,
+2,"['wait.', 'wait.']",nothing,nothing,infinite,infinite,infinite,2,0,0,0,1,2,0,off,not cooking,0,off,not cooking,empty,empty,empty,wait. | move away.,"action history: wait., wait..
+<Inventory>: I am holding nothing. <My location information:> o0 is inaccessible. o1 is inaccessible. p0 is inaccessible. d0 is 2 units away. c0 is 0 units away. c1 is 0 units away. s0 is 0 units away. s1 is 1 units away. s2 is 2 units away. 
+<Environment Details>: c0 contains 0 out of 3 onions. c0 is off. soup in c0 is not cooking. c1 contains 0 out of 3 onions. c1 is off. soup in c1 is not cooking. s0 is empty. s1 is empty. s2 is empty. Closest empty kitchen counter k4 is 1 units away. 
+Available Actions:
+[wait., move away.]",wait.,
