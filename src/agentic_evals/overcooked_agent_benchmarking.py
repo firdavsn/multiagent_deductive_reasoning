@@ -1,6 +1,6 @@
-from ..overcooked_ai_py.mdp.overcooked_mdp import OvercookedGridworld
-from llm_coordination_agents.overcooked_action_manager import LLMActionManager
-from overcooked_ai_py.mdp.actions import Action, Direction
+from src.overcooked_ai_py.mdp.overcooked_mdp import OvercookedGridworld
+from src.llm_coordination_agents.overcooked_action_manager import LLMActionManager
+from src.overcooked_ai_py.mdp.actions import Action, Direction
 import time 
 import numpy as np 
 from tqdm import tqdm 
