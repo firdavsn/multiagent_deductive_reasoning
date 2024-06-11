@@ -100,10 +100,13 @@ class LLMManager:
             self.akey = os.getenv("AZURE_OPENAI_ENDPOINT")
             self.org = os.getenv("AZURE_OPENAI_API_KEY")
             # self.client = OpenAI(api_key = self.akey, organization = self.org)
-            self.client = AzureOpenAI(
-                azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
-                api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
-                api_version="2023-05-15"
+            # self.client = AzureOpenAI(
+            #     azure_endpoint = os.getenv("AZURE_OPENAI_ENDPOINT"), 
+            #     api_key=os.getenv("AZURE_OPENAI_API_KEY"),  
+            #     api_version="2023-05-15"
+            # )
+            self.client = OpenAI(
+                api_key=os.getenv("AZURE_OPENAI_API_KEY")
             )
         else:
             self.client = OpenAI(
